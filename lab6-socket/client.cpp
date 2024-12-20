@@ -93,6 +93,12 @@ void disconnect_from_server()
     }
 
     is_connected = false; // 更新连接状态
+
+    // 下面三行为了使得在测试过程中能捕捉到TIME-WAIT状态
+    shutdown(client_socket, SD_BOTH); // 优雅关闭连接
+    this_thread::sleep_for(chrono::seconds(1)); // 等待对方处理
+    closesocket(client_socket); // 关闭套接字
+
     closesocket(client_socket); // 关闭Socket
     if (recv_thread.joinable())
     {
