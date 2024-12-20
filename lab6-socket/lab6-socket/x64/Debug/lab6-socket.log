@@ -1,0 +1,8 @@
+﻿  server.cpp
+D:\code\visualstudio\lab6-socket\server.cpp(29,64): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\visualstudio\lab6-socket\server.cpp(39,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\visualstudio\lab6-socket\server.cpp(60,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\visualstudio\lab6-socket\server.cpp(75,72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\visualstudio\lab6-socket\server.cpp(83,84): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\visualstudio\lab6-socket\server.cpp(89,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\visualstudio\lab6-socket\server.cpp(59,36): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
